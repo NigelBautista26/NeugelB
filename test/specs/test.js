@@ -35,7 +35,7 @@ describe("Test The Application...", () => {
         expect(movieDetail.detailMovieGenre.getText()).to.equal(detailFixtureData.detailMovieGenreValue)
         expect(movieDetail.movieDetail.getText()).to.equal(detailFixtureData.movieDetailValue)
     })
-    it.only("Search for a movie...", () => {
+    it("Search for a movie...", () => {
         home.search.click()
         home.searchTab.setValue('Scoob!')
         driver.pause(2000) // This is a temporary workaround as the implicit wait for the element to be visible isnt working for some reason...      
