@@ -20,7 +20,7 @@ Open the project in an IDE or another terminal and run the command "npm install"
 Finally please run the command "npm test" to run the test.
 
 
-# Please note that the test cases and bugs found lists can also be found within this project...
+# Please note that the test cases and bugs found lists can be found within this project...
 
 
 
