@@ -41,5 +41,18 @@
 
 
 
-4. 
+4. The refresh movie functionality doesnt work
+
+    Steps to replicate:
+
+        Go to the homescreen
+        on the top of the movie list scroll from top then down to initiate the refresh
+
+    Expected Result: The refresh functionality should refresh the movie list shown in the homescreen.
+
+    Actual result: The refresh functionality doesnt refresh the movie list shown in the homescreen.
+
+
+
+5. "Requirement Unclear" - The mobile application only displays a maximum 4 movies on the mobile viewport before scrolling, but in the requirements, it said that the initial view for the home screen should display 20? so im not certain if this is a real bug or not? as the infinite scrolling does work fine. or maybe the requirement is wrong?
 
